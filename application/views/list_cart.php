@@ -40,7 +40,7 @@
                         echo "                    
                         <div class='cart-item-entity'>
                             <div class='cart-item-image'>
-                                <a class='entity-preview-show-up entity-preview' href='" . base_url("C_product/view/$p->idProduct") . "'>
+                                <a class='entity-preview-show-up entity-preview' href='" . base_url("C_product/view/$c->idProduct") . "'>
                                     <span class='embed-responsive embed-responsive-4by3'>
                                         <img class='embed-responsive-item' src='" . base_url('assets') . "/upload/products/$c->image' alt='' />
                                     </span>
@@ -53,7 +53,7 @@
                                 </a>
                             </div>
                             <div class='cart-item-title'>
-                                <a class='content-link' href='" . base_url("C_product/view/$p->idProduct") . "'>$c->name</a>
+                                <a class='content-link' href='" . base_url("C_product/view/$c->idProduct") . "'>$c->name</a>
                             </div>
                             <div class='cart-item-price'>Rp " . number_format($c->price, 0, ',', ',') . "</div>
                             <div class='cart-item-quantity'>
